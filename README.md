@@ -64,10 +64,14 @@ The models were evaluated using the following metrics:
 - **Accuracy**
 - **Precision**
 - **Recall**
+- **F1 Score**
 - **Confusion Matrix**
 
 These metrics provide insights into how well the models perform in predicting autism.
 
+## Hyperparameter Tuning
+
+GridSearchCV was used for hyperparameter tuning to improve model performance. The hyperparameters for models like Decision Tree, Random Forest, and SVM were fine-tuned using cross-validation to achieve optimal results.
 
 ## Results
 
@@ -79,9 +83,6 @@ These metrics provide insights into how well the models perform in predicting au
 | k-Nearest Neighbors (KNN)| 0.910   | 0.953     | 0.913   | 0.932    |
 | Support Vector Machine (SVM) | 0.940| 0.966    | 0.946   | 0.956    |
 
-## Learning Curves
-
-Learning curves were generated for each model to analyze their performance as the training size increased. The learning curves show how the models learn from the training data and how well they generalize to unseen data.
 
 ## Conclusion
 
